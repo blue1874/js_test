@@ -1,0 +1,23 @@
+{
+  "name": "js_test",
+  "version": "1.0.0",
+  "description": "practice for js",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blue1874/js_test.git"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "loniclue",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blue1874/js_test/issues"
+  },
+  "homepage": "https://github.com/blue1874/js_test#readme"
+}
