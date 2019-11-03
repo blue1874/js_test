@@ -1,5 +1,64 @@
-extends layout
+extend layout
+           
+block main
+    div(class="d-flex flex-column justify-content-center" style="height: 350%;")
+        div(id="carousel" class="carousel slide carousel-fade h-25 overflow-hidden" data-ride="carousel" data-pause=false)
+            div(class="carousel-inner h-100")
+                div(id = "bgimg-1" class="carousel-item d-flex justify-content-center flex-column header-img h-100 active")
+                    h1(class="font-weight-bold text-white text-center") First slide label
+                    p(class="text-light text-center") Nulla vitae elit libero, a pharetra augue mollis interdum.
+                    
+                
+                div(id = "bgimg-2" class="carousel-item d-flex justify-content-center flex-column header-img h-100")
+                    h1(class="font-weight-bold text-white text-center") Second slide label
+                    p(class="text-light text-center") Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    
+                
+                div(id = "bgimg-3" class="carousel-item d-flex justify-content-center flex-column header-img h-100 ")
+                    h1(class="font-weight-bold text-white text-center") Third slide label
+                    p(class="text-light text-center") Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            
+            
+        
+            //- div(class="d-flex justify-content-center h-100")
+            //-     div(class="index-container mx-auto my-auto")
+            //-         div(class="row")
+            //-             div(class="col-lg-10 mx-auto d-flex flex-column justify-content-center")
+            //-                 h1(class="font-weight-bold text-white text-center") Ambitioni dedisse scripsisse iudicaretur.
+            //-                 p(class="text-light text-center") Cras mattis iudicium purus sit amet fermentum. Donec sed odio operae,
+                    //- div(class="d-flex flex-row justify-content-center row" style="margin-top:10%;")
+                    //-     button(type="button" class="btn btn-primary btn-lg mx-auto" data-toggle="button" aria-pressed="false" autocomplete="off") Single toggle
+                    //-     button(type="button" class="btn btn-primary btn-lg mx-auto" data-toggle="button" aria-pressed="false" autocomplete="off") Single toggle
 
-block content
-  h1= title
-  p Welcome to #{title}
+        div(class="bg-light h-25")
+            div(class="d-flex justify-content-center h-100")
+                div(class="index-container mx-auto my-auto")
+
+                    div(class="row")
+                        div(class="col-lg-6 my-auto" id="img-1")
+                            img(src="/images/1.png", alt="")
+                        div(class="col-lg-6 my-auto")
+                            h1(class="") Ambitioni dedisse scripsisse iudicaretur. 
+                            p(class="font-weight-light") Cras mattis iudicium purus sit amet fermentum.
+
+        div(class="bg-secondary h-25")
+            div(class="d-flex justify-content-center h-100")
+                div(class="index-container mx-auto my-auto")
+                    div(class="row")
+                        div(class="col-lg-6 my-auto")
+                            h1(class="text-white") Ambitioni dedisse scripsisse iudicaretur. 
+                            p(class="font-weight-light text-white") Cras mattis iudicium purus sit amet fermentum.
+                        div(class="col-lg-6 my-auto"  id="img-2")
+                            img(src="/images/3.png", alt="")
+
+        div(class="bg-white h-25")
+            div(class="d-flex justify-content-center h-100")
+                div(class="index-container mx-auto my-auto")
+                    div(class="row")
+                        div(class="col-lg-6 my-auto")
+                            img(src="/images/5.png", alt=""  id="img-3") 
+                        div(class="col-lg-6 my-auto")
+                            h1(class="") Ambitioni dedisse scripsisse iudicaretur. 
+                            p(class="font-weight-light ") Cras mattis iudicium purus sit amet fermentum.
+
+                

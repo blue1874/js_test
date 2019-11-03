@@ -1,0 +1,64 @@
+html, body {
+  height: 100%;
+}
+
+/* Add the below transitions to allow a smooth color change similar to lyft */ 
+@keyframes hideNavbar {
+  0% {background-color: #343a40;}
+  100% {background-color: #ffffff00;}
+}
+
+@-webkit-keyframes hideNavbar {
+  0% {background-color: #343a40;}
+  100% {background-color: #ffffff00;}
+}
+
+.hideNav {
+  /* background-color: #ffffff; */
+  animation-name: hideNavbar;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+.displayNav {
+  /* background-color: #343a40; */
+  animation-name: hideNavbar;
+  animation-duration: 0.8s;
+  animation-fill-mode: forwards;
+  animation-direction: reverse;
+}
+
+
+.header-img {
+  /* background-image: url("/images/7.jpg"); */
+  /* height: 100%; */
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover
+}
+#bgimg-1 {
+  background-image: url("/images/7.jpg");
+}
+
+#bgimg-2 {
+  background-image: url("/images/saturna-island.jpg");
+}
+
+#bgimg-3 {
+  background-image: url("/images/tianjin.jpg");
+}
+
+.mask {
+  /* background: rgba(0, 0, 0, 0.25); */
+  background: rgba(255, 255, 255, 0.5);
+}
+.index-container {
+  height: 60%;
+  width: 80%;
+  /*margin: 10% 20% 10% 20%;*/
+}
+
+footer {
+  height:70px;
+}
