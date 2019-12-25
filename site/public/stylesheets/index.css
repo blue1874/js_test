@@ -13,15 +13,22 @@ html, body {
   100% {background-color: #ffffff00;}
 }
 
+@font-face {
+  font-family: "CHILLER";
+  src: url("/fonts/CHILLER.ttf");
+}
+
+.logo {
+  font: 40px "CHILLER";
+}
+
 .hideNav {
-  /* background-color: #ffffff; */
   animation-name: hideNavbar;
   animation-duration: 1s;
   animation-fill-mode: forwards;
 }
 
 .displayNav {
-  /* background-color: #343a40; */
   animation-name: hideNavbar;
   animation-duration: 0.8s;
   animation-fill-mode: forwards;
@@ -30,25 +37,40 @@ html, body {
 
 
 .header-img {
-  /* background-image: url("/images/7.jpg"); */
-  /* height: 100%; */
-  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover
 }
 #bgimg-1 {
-  background-image: url("/images/7.jpg");
+  background-image: url("/images/product/bottle.jpg");
 }
 
 #bgimg-2 {
-  background-image: url("/images/saturna-island.jpg");
+  background-image: url("/images/product/pink-flower.jpg");
 }
 
 #bgimg-3 {
   background-image: url("/images/tianjin.jpg");
 }
+#index-div-1 {
+  background-color: #cfffd4;
+}
+#index-div-2 {
+  background-color: #85a3b6;
+}
+#index-div-3 {
+  background-color: #cfffd4;
+}
+#index-img-1 {
+  width: 400px;
+  height: 400px;
+}
 
+#index-img-2 {
+  width: 400px;
+  height: 400px;
+  alt: initial;
+}
 .mask {
   /* background: rgba(0, 0, 0, 0.25); */
   background: rgba(255, 255, 255, 0.5);
